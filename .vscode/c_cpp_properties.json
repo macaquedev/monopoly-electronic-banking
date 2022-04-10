@@ -1,0 +1,66 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/alex/Documents/PlatformIO/Projects/monopoly-electronic-banking/include",
+                "/home/alex/Documents/PlatformIO/Projects/monopoly-electronic-banking/src",
+                "/home/alex/Documents/PlatformIO/Projects/monopoly-electronic-banking/.pio/libdeps/uno/IRremote/src",
+                "/home/alex/Documents/PlatformIO/Projects/monopoly-electronic-banking/.pio/libdeps/uno/Easy MFRC522/src",
+                "/home/alex/Documents/PlatformIO/Projects/monopoly-electronic-banking/.pio/libdeps/uno/MFRC522/src",
+                "/home/alex/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/home/alex/Documents/PlatformIO/Projects/monopoly-electronic-banking/.pio/libdeps/uno/LiquidCrystal_I2C",
+                "/home/alex/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "/home/alex/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/home/alex/.platformio/packages/framework-arduino-avr/variants/standard",
+                "/home/alex/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/home/alex/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/home/alex/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/home/alex/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/alex/Documents/PlatformIO/Projects/monopoly-electronic-banking/include",
+                    "/home/alex/Documents/PlatformIO/Projects/monopoly-electronic-banking/src",
+                    "/home/alex/Documents/PlatformIO/Projects/monopoly-electronic-banking/.pio/libdeps/uno/IRremote/src",
+                    "/home/alex/Documents/PlatformIO/Projects/monopoly-electronic-banking/.pio/libdeps/uno/Easy MFRC522/src",
+                    "/home/alex/Documents/PlatformIO/Projects/monopoly-electronic-banking/.pio/libdeps/uno/MFRC522/src",
+                    "/home/alex/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/home/alex/Documents/PlatformIO/Projects/monopoly-electronic-banking/.pio/libdeps/uno/LiquidCrystal_I2C",
+                    "/home/alex/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "/home/alex/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/home/alex/.platformio/packages/framework-arduino-avr/variants/standard",
+                    "/home/alex/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/home/alex/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/home/alex/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/home/alex/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50205",
+                "ARDUINO_AVR_UNO",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega328P__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/home/alex/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega328p",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
