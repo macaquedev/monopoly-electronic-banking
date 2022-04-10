@@ -27,8 +27,6 @@ RFID Cards are simple MiFare 1K cards, but 4K should also work.
 #include <MFRC522.h>
 #include <LiquidCrystal_I2C.h>
 
-#include "menus.h"
-
 #define DEBUG 1
 #if DEBUG == 1
 #define debug(x) Serial.print(x)
